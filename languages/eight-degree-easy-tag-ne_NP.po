@@ -1,0 +1,428 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Eight Degree Easy Tag\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-13 08:19+0000\n"
+"PO-Revision-Date: 2017-04-13 08:20+0000\n"
+"Last-Translator: 8Degree Admin <info@8degreethemes.com>\n"
+"Language-Team: Nepali\n"
+"Language: ne-NP\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: inc/backend/edet_form_elments.php:158
+msgid "pt"
+msgstr ""
+
+#: inc/backend/edet_form_elments.php:160
+msgid "px"
+msgstr ""
+
+#: inc/backend/edet_form_elments.php:162
+msgid "%"
+msgstr ""
+
+#: inc/backend/edet_form_elments.php:164
+msgid "em"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://8degreethemes.com/wordpress-plugins/eight-degree-easy-tags/"
+msgstr ""
+
+#. Author of the plugin
+msgid "8degree Themes"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://8degreethemes.com/"
+msgstr ""
+
+#: eight-degree-easy-tag.php:138 eight-degree-easy-tag.php:139
+#, fuzzy
+msgid "About"
+msgstr "बारेमा"
+
+#: eight-degree-easy-tag.php:126
+msgid "Help"
+msgstr "मदत"
+
+#: eight-degree-easy-tag.php:127
+msgid "How to use"
+msgstr ""
+"\n"
+"कसरी प्रयोग गर्ने"
+
+#: eight-degree-easy-tag.php:337
+msgid "Use Shortcodes"
+msgstr ""
+"\n"
+"छोटा कोडहरू प्रयोग"
+
+#: eight-degree-easy-tag.php:338
+msgid "Include into Template"
+msgstr "टेम्पलेट मा समावेश"
+
+#: eight-degree-easy-tag.php:359
+msgid "EDET Shortcodes"
+msgstr "EDET छोटा कोडहरू"
+
+#: eight-degree-easy-tag.php:376
+msgid "EDET Tags"
+msgstr "EDET टैग"
+
+#: eight-degree-easy-tag.php:446
+#, php-format
+msgid "%s edet on this topic !"
+msgid_plural "%s edets on this topic !"
+msgstr[0] "यो विषय मा edet"
+msgstr[1] ""
+
+#: inc/backend/edet_form_elments.php:13
+msgid "Enable"
+msgstr "सक्षम"
+
+#: inc/backend/edet_form_elments.php:15
+msgid "(Enable Tag Functionality)"
+msgstr "(ट्याग कार्यक्षमता सक्षम)"
+
+#: inc/backend/edet_form_elments.php:19
+msgid "Description"
+msgstr "विवरण"
+
+#: inc/backend/edet_form_elments.php:25
+msgid "(Describe here about your tag)"
+msgstr ""
+"(तपाईंको ट्याग बारेमा यहाँ वर्णन)\n"
+
+#: inc/backend/edet_form_elments.php:29
+msgid "Text Color"
+msgstr "पाठ रंग"
+
+#: inc/backend/edet_form_elments.php:32
+msgid "(Font color of tags)"
+msgstr "(ट्याग फन्ट रंग)"
+
+#: inc/backend/edet_form_elments.php:36
+msgid "Tag Template"
+msgstr "ट्याग टेम्पलेट"
+
+#: inc/backend/edet_form_elments.php:38
+msgid "Template1"
+msgstr ""
+"टेम्पलेट 1\n"
+
+#: inc/backend/edet_form_elments.php:40
+msgid "Template2"
+msgstr "टेम्पलेट 2"
+
+#: inc/backend/edet_form_elments.php:42
+msgid "Template3"
+msgstr "टेम्पलेट 3"
+
+#: inc/backend/edet_form_elments.php:44
+msgid "Template4"
+msgstr "टेम्पलेट 4"
+
+#: inc/backend/edet_form_elments.php:46
+msgid "Template5"
+msgstr "टेम्पलेट 5"
+
+#: inc/backend/edet_form_elments.php:48
+msgid "Template6"
+msgstr "टेम्पलेट 6"
+
+#: inc/backend/edet_form_elments.php:50
+msgid "Template7"
+msgstr "टेम्पलेट 7"
+
+#: inc/backend/edet_form_elments.php:52
+msgid "Template8"
+msgstr "टेम्पलेट 8"
+
+#: inc/backend/edet_form_elments.php:54
+msgid "Template9"
+msgstr "टेम्पलेट 9"
+
+#: inc/backend/edet_form_elments.php:56
+msgid "Template10"
+msgstr "टेम्पलेट 10"
+
+#: inc/backend/edet_form_elments.php:58
+msgid "Template11"
+msgstr "टेम्पलेट 11"
+
+#: inc/backend/edet_form_elments.php:60
+msgid "Template12"
+msgstr "टेम्पलेट 12"
+
+#: inc/backend/edet_form_elments.php:62
+msgid "Template13"
+msgstr "टेम्पलेट 13"
+
+#: inc/backend/edet_form_elments.php:64
+msgid "Template14"
+msgstr "टेम्पलेट 14"
+
+#: inc/backend/edet_form_elments.php:66
+msgid "Template15"
+msgstr "टेम्पलेट 15"
+
+#: inc/backend/edet_form_elments.php:79
+msgid "(Choose template for changing tags styles)"
+msgstr "(ट्याग शैलीहरू परिवर्तन को लागि टेम्पलेट छान्नुहोस्)"
+
+#: inc/backend/edet_form_elments.php:83
+msgid "Letter Case"
+msgstr "पत्र प्रकरण"
+
+#: inc/backend/edet_form_elments.php:85
+msgid "Lowercase"
+msgstr "सानो केस"
+
+#: inc/backend/edet_form_elments.php:87
+msgid "Uppercase"
+msgstr "ठूलो"
+
+#: inc/backend/edet_form_elments.php:89
+msgid "Capitalize"
+msgstr "क्यापिटलाइज"
+
+#: inc/backend/edet_form_elments.php:92
+msgid "(Choose tag font for upper or lower case)"
+msgstr "(माथिल्लो वा तल्लो मामला लागि ट्याग फन्ट छान्नुहोस्)"
+
+#: inc/backend/edet_form_elments.php:96
+msgid "Font Style"
+msgstr "फन्ट शैली"
+
+#: inc/backend/edet_form_elments.php:98 inc/backend/edet_form_elments.php:124
+msgid "Normal"
+msgstr "सामान्य"
+
+#: inc/backend/edet_form_elments.php:100
+msgid "Italic"
+msgstr "छड्के"
+
+#: inc/backend/edet_form_elments.php:102
+msgid "Oblique"
+msgstr "अप्रत्यक्ष"
+
+#: inc/backend/edet_form_elments.php:105
+msgid "(Choose tag font style)"
+msgstr "(ट्याग फन्ट शैली चुन्नुहोस)"
+
+#: inc/backend/edet_form_elments.php:109
+msgid "Text Alignment"
+msgstr "पाठ पंक्तिबद्ध"
+
+#: inc/backend/edet_form_elments.php:111
+msgid "Right"
+msgstr "दायाँ"
+
+#: inc/backend/edet_form_elments.php:113
+msgid "Center"
+msgstr "केन्द्र"
+
+#: inc/backend/edet_form_elments.php:115
+msgid "Left"
+msgstr "बाँकी"
+
+#: inc/backend/edet_form_elments.php:118
+msgid "(Choose for text alignment)"
+msgstr "(पाठ पङ्क्तिबद्ध लागि छनौट)"
+
+#: inc/backend/edet_form_elments.php:122
+msgid "Text Weight"
+msgstr "पाठ वजन"
+
+#: inc/backend/edet_form_elments.php:126
+msgid "Bold"
+msgstr "बोल्ड"
+
+#: inc/backend/edet_form_elments.php:129
+msgid "(Choose Text weight)"
+msgstr "(पाठ वजन रोज्नुहोस्)"
+
+#: inc/backend/edet_form_elments.php:141
+msgid "Minimum Text Size"
+msgstr "न्यूनतम पाठ आकार"
+
+#: inc/backend/edet_form_elments.php:145
+msgid "(Minimum size of text for tag)"
+msgstr "(ट्याग लागि पाठ को न्यूनतम आकार)"
+
+#: inc/backend/edet_form_elments.php:148
+msgid "Maximum Text Size"
+msgstr "अधिकतम पाठ आकार"
+
+#: inc/backend/edet_form_elments.php:152
+msgid "(Maximum size of text for tag)"
+msgstr "(ट्याग लागि पाठ को अधिकतम आकार)"
+
+#: inc/backend/edet_form_elments.php:156
+msgid "Tag unit"
+msgstr "ट्याग एकाइ"
+
+#: inc/backend/edet_form_elments.php:167
+msgid "(Change unit as per your need)"
+msgstr "(एकाइ परिवर्तन प्रति आफ्नो आवश्यकता रूपमा)"
+
+#: inc/backend/edet_form_elments.php:171
+msgid "Tag number "
+msgstr "ट्याग नम्बर"
+
+#: inc/backend/edet_form_elments.php:182
+msgid "(Numbers of tag to display)"
+msgstr "(प्रदर्शन गर्न ट्याग को गन्ती)"
+
+#: inc/backend/edet_form_elments.php:186
+msgid "Tag Layout"
+msgstr "ट्याग लेआउट"
+
+#: inc/backend/edet_form_elments.php:188
+msgid "Flat"
+msgstr "समतल"
+
+#: inc/backend/edet_form_elments.php:190
+msgid "List"
+msgstr "सूची"
+
+#: inc/backend/edet_form_elments.php:193
+msgid "(Tag layouts flat or list)"
+msgstr "(ट्याग रूपरेखा समतल वा सूची)"
+
+#: inc/backend/edet_form_elments.php:197
+msgid "Tag Seperator"
+msgstr "ट्याग विभाजक"
+
+#: inc/backend/edet_form_elments.php:201
+msgid "(Character as tag separator)"
+msgstr "(ट्याग विभाजक रूपमा वर्ण)"
+
+#: inc/backend/edet_form_elments.php:205
+msgid "Order Tag: By"
+msgstr "अर्डर ट्याग: द्वारा"
+
+#: inc/backend/edet_form_elments.php:207
+msgid "Name"
+msgstr "नाम"
+
+#: inc/backend/edet_form_elments.php:209
+msgid "Count"
+msgstr "गणना"
+
+#: inc/backend/edet_form_elments.php:212
+msgid "(Order your tags according to Name or Count)"
+msgstr "(नाम वा गणना अनुसार आफ्नो ट्याग अर्डर)"
+
+#: inc/backend/edet_form_elments.php:216
+msgid "Sort Tags: By"
+msgstr "क्रमबद्ध टैग: द्वारा"
+
+#: inc/backend/edet_form_elments.php:218
+msgid "Ascending"
+msgstr "आरोही"
+
+#: inc/backend/edet_form_elments.php:220
+msgid "Random"
+msgstr "अनियमित"
+
+#: inc/backend/edet_form_elments.php:222
+msgid "Descending"
+msgstr "घट्दो"
+
+#: inc/backend/edet_form_elments.php:225
+msgid "(Sort the tags in an ascending, random or descending order)"
+msgstr "(एक आरोही मा ट्याग क्रमबद्ध अनियमित वा घटते)"
+
+#: inc/backend/edet_form_elments.php:229
+msgid "Set Link "
+msgstr "लिंक सेट"
+
+#: inc/backend/edet_form_elments.php:231
+msgid "View"
+msgstr "हेर्नुहोस्"
+
+#: inc/backend/edet_form_elments.php:233 inc/backend/edet_register_post.php:14
+msgid "Edit"
+msgstr "सम्पादन"
+
+#: inc/backend/edet_form_elments.php:235
+msgid "(Set tag to link or edit tag)"
+msgstr "(लिंक गर्न ट्याग वा सम्पादन ट्याग सेट)"
+
+#: inc/backend/edet_form_elments.php:239
+msgid "Show count"
+msgstr "गणना शो"
+
+#: inc/backend/edet_form_elments.php:241
+msgid "(Check to show count of tag)"
+msgstr "(ट्याग को गणना देखाउन जाँच)"
+
+#: inc/backend/edet_form_elments.php:251
+msgid "Choose Taxonomy "
+msgstr "Taxonomy चयन"
+
+#: inc/backend/edet_form_elments.php:253
+msgid "(Check taxonomy type for displaying in tag cloud)"
+msgstr "(Taxonomy प्रकार जाँच ट्याग क्लाउडमा प्रदर्शन लागि)"
+
+#: inc/backend/edet_form_elments.php:306
+msgid "Choose terms for taxonomy type:[post_tag] "
+msgstr "taxonomy प्रकार लागि नियम छनौट गर्नुहोस्: [post_tag]"
+
+#: inc/backend/edet_form_elments.php:307
+msgid "(Check to exclude or include tag terms of Posts)"
+msgstr "(निकाल्न वा पोस्ट को ट्याग सर्तहरू समावेश गर्न जाँच)"
+
+#: inc/backend/edet_form_elments.php:340
+msgid "Choose terms for taxonomy type:[category] "
+msgstr "taxonomy प्रकार लागि नियम छनौट गर्नुहोस्: [श्रेणी]"
+
+#: inc/backend/edet_form_elments.php:341
+msgid "(Check to exclude or include Category terms in your tag cloud)"
+msgstr "(तपाईंको ट्याग क्लाउडमा श्रेणी सर्तहरू निकाल्न वा समावेश गर्न जाँच)"
+
+#: inc/backend/edet_form_elments.php:372
+msgid "Choose terms for taxonomy type:[post_format] "
+msgstr "taxonomy प्रकार लागि नियम छनौट गर्नुहोस्: [post_format]"
+
+#: inc/backend/edet_form_elments.php:374
+msgid "(Check to exclude or include Post Format terms)"
+msgstr "(निकाल्न वा पोष्ट स्वरूप सर्तहरू समावेश गर्न जाँच)"
+
+#: inc/backend/edet_form_elments.php:405
+msgid "Exclude/Include"
+msgstr "/ समावेश बहिष्कृत"
+
+#: inc/backend/edet_register_post.php:12
+msgid "Add New"
+msgstr "नयाँ थप्न"
+
+#: inc/backend/edet_register_post.php:13
+msgid "Add New Tag Setting"
+msgstr "नयाँ ट्याग सेटिङ थप्न"
+
+#: inc/backend/edet_widgets.php:8
+msgid "Use widget to  sidebars, footers, etc."
+msgstr "गर्न छेउपट्टी, फुटरहरू, आदि विजेट प्रयोग"
+
+#: inc/backend/edet_widgets.php:31
+msgid "Title:"
+msgstr "शीर्षक:"
+
+#: inc/backend/edet_widgets.php:36
+msgid "Choose Tag:"
+msgstr "छनौट ट्याग:"
+
+#. Name of the plugin
+msgid "Eight Degree Easy Tag"
+msgstr "आठ डिग्री सजिलो ट्याग"
+
+#. Description of the plugin
+msgid "A plugin to diplay your tags with multiple style options"
+msgstr "एक प्लगइन धेरै शैली विकल्पहरू आफ्नो ट्याग प्रदर्शन गर्न"

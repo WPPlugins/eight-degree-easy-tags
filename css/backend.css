@@ -1,0 +1,918 @@
+#edet_meta_boxes .hndle.ui-sortable-handle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 17px;
+}
+#edet_meta_boxes button.handlediv.button-link {
+    margin-top: 7px;
+}
+.edet-outer-wrapper ul li {
+    margin-bottom: 0;
+}
+textarea.edet-text-input-input {
+    width: 40%;
+    height: 100px;
+    vertical-align: text-top;
+}
+.two-col-special-a, .two-col-special-b {
+    border-bottom: 5px solid #eee;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.edet-outer-wrapper ul li a {
+    text-decoration: none;
+}
+#edet_meta_boxes .edet-outer-wrapper .edet-menu-head {
+    background: #eee none repeat scroll 0 0;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 0;
+    position: relative;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    height: 35px;
+    padding: 0 50px 0 15px;
+    line-height: 33px;
+    border: 1px solid #ddd;
+}
+#edet_meta_boxes .edet-outer-wrapper .edet-menu-head.edet-menu-open {
+    border-bottom-color: transparent;
+}
+#edet_meta_boxes .edet-outer-wrapper .edet-menu-head:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #ddd;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+}
+#edet_meta_boxes .edet-outer-wrapper .edet-menu-head:after {
+    content: "\f107";
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: fontawesome;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+}
+#edet_meta_boxes .edet-outer-wrapper .edet-menu-head.edet-menu-open:after {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+}
+.edet-toggle-field {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+.two-col-special-a .edet-checkbox {
+    margin-bottom: 20px;
+}
+.edet-checkbox .edet-checkbox-label, .two-col-special-c label {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+}
+.two-col-special-a label.edet-checkbox-label, 
+.two-col-special-b label.edet-checkbox-label {
+    width: 220px;
+}
+.edet-checkbox .edet-checkbox-input {
+    display: inline-block;
+    /*float: left;
+    margin: 5px 10px 0 0;*/
+    vertical-align: middle;
+}
+.edet-checkbox-span {
+    display: block;
+    font-style: italic;
+    vertical-align: middle;
+    color: #777;
+}
+.edet-text_input, .edet-text-input, .edet-options {
+    border-top: 1px solid #eee;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.edet-outer-wrapper .edet-toggle-field > div:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+.two-col-special-b .edet-menu + .edet-text-input {
+    border-top: medium none;
+    padding-top: 0;
+}
+label.edet-options {
+    border-top: medium none;
+    margin: 0;
+    padding: 0;
+}
+.two-col-special-a > div:last-child {
+    margin-bottom: 0;
+}
+.edet-text-input-label, .edet-options-label, label.edet-options {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    vertical-align: middle;
+    width: 220px;
+}
+.edet-outer-wrapper input[type="text"], .edet-outer-wrapper select {
+    display: inline-block;
+    height: 35px;
+    padding: 5px 10px;
+    vertical-align: middle;
+    width: auto;
+    box-shadow: none;
+}
+.edet-outer-wrapper select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    min-width: 80px;
+    background: url(../images/form-dropdown-arrow.png) no-repeat;
+    background-position: 90% 53%;
+    background-size: 9px;
+    padding-right: 25px;
+}
+ul.two-col-special {
+    margin-top: 20px;
+}
+.edet-text-input-span, .edet-options-span {
+    color: #777;
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 10px;
+    padding-left: 225px;
+}
+.two-col-special-c::before, 
+.two-col-special-c::after, 
+.two-col-special-c .two-col-special:before, 
+.two-col-special-c .two-col-special:after {
+    content: "";
+    display: table;
+}
+.two-col-special-c::after, 
+.two-col-special-c .two-col-special:after {
+    clear: both;
+}
+.two-col-special-c .edet-list-container {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.two-col-special-c .edet-list-container + .edet-list-container {
+    margin-right: 0;
+}
+#edet_meta_boxes .two-col-special-c .edet-list-container .edet-list {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0;
+}
+.two-col-special-c .two-col-special li {
+    float: left;
+    margin-right: 2%;
+    width: 28.66%;
+    margin-bottom: 25px;
+    position: relative;
+    padding-left: 25px;
+}
+.two-col-special-c .two-col-special li:nth-child(3n) {
+    margin-right: 0;
+}
+.two-col-special-c .two-col-special input[type="checkbox"] {
+    margin-right: 10px;
+    position: absolute;
+    top: 9px;
+    left: 0;
+}
+.two-col-special-c ul li label span {
+    font-weight: 400;
+}
+#edet_shortcode_usage_option ul li textarea {
+    box-shadow: none;
+    width: 100%;
+}
+.edet-radio-wrap {
+    margin-bottom: 20px;
+}
+h1.edet-radio-title {
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.edet-radio-wrap input[type="radio"] {
+    display: inline-block;
+    vertical-align: middle;
+}
+.edet-radio-wrap label.edet-radio-option {
+    vertical-align: top;
+    margin-right: 25px;
+}
+.edet-help-wrapper h3, .edet-about .edet-about-head h3 {
+    font-size: 18px;
+    font-weight: 800;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+    padding: 5px 10px;
+    border-left: 4px solid lightseagreen;
+    margin: 30px 0;
+}
+.edet-help-wrapper h5 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: 700;
+    font-family: sans-serif;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.edet-about-content {
+    width: 75%;
+}
+.edet-help-wrapper p, .edet-about .edet-about-content p {
+    font-size: 15px;
+    line-height: 27px;
+    color: #666;
+}
+.edet-about .edet-about-content p {
+    margin: 0;
+}
+.edet-help-wrapper h4 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: #333;
+}
+.edet-help-shorcode-content, .edet-help-widgets .edet-help-widgets-content {
+    padding-left: 20px;
+}
+.edet-help-shorcode-content ul li {
+    margin-bottom: 30px;
+}
+.edet-help-widgets .edet-help-widgets-content p {
+    line-height: 36px;
+}
+.edet-help-shorcode-content textarea {
+    white-space: nowrap;
+    padding: 5px 10px;
+}
+
+/*=================================================
+RESPONSIVE CSS
+=================================================*/
+@media screen and (max-width: 480px) {
+	.two-col-special-c .two-col-special li {
+		float: none;
+		margin-right: 0;
+		width: 100%;
+	}
+}
+
+
+
+/* ========================
+Template designs
+=========================*/
+a {
+    text-decoration: none;
+    box-shadow: none !important;
+    outline: none;
+    -webkit-outline: none;
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+}
+.edet-enabled .edet-tag-cloud-wrapper a {
+    box-shadow: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 3px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    line-height: initial;
+    width: auto;
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+}
+.edet-enabled .edet-tag-cloud-wrapper a .tagcount {
+    position: relative;
+    font-size: 0.750em;
+}
+.edet-enabled .edet-tag-cloud-wrapper a .tagcount::before {
+    content: "[";
+    padding-right: 2px;
+}
+.edet-enabled .edet-tag-cloud-wrapper a .tagcount::after {
+    content: "]";
+    padding-left: 2px;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-2 a .tagcount::before, 
+.edet-enabled .edet-tag-cloud-wrapper.template-2 a .tagcount::after, 
+.edet-enabled .edet-tag-cloud-wrapper.template-4 a .tagcount::before, 
+.edet-enabled .edet-tag-cloud-wrapper.template-6 a .tagcount::after, 
+.edet-enabled .edet-tag-cloud-wrapper.template-13 a .tagcount:before, 
+.edet-enabled .edet-tag-cloud-wrapper.template-13 a .tagcount:after {
+    display: none;
+}
+.edet-text-description {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/*=========================================================
+LIST VIEW
+=========================================================*/
+.edet-enabled .edet-tag-cloud-list ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.edet-enabled .edet-tag-cloud-list ul li {
+    display: block;
+}
+
+/*==========================================================
+TEMPLATE ONE LAYOUT
+==========================================================*/
+.edet-enabled .edet-tag-cloud-wrapper.template-1 a {
+    color: #777;
+    padding: 2px;
+    border-bottom: 1px solid transparent;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-1 a:hover {
+    color: #333;
+    border-bottom-color: #333;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-1 a .tagcount {
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+/*=========================================================
+TEMPLATE TWO LAYOUT
+=========================================================*/
+.edet-enabled .edet-tag-cloud-wrapper.template-2 a {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 30px;
+    color: #333;
+    height: auto;
+    padding: 8px 20px;
+    width: auto;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-2 a:hover {
+    background: #fff;
+    border-color: #ddd;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-2 a span.tagcount {
+    background: transparent none repeat scroll 0 0;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+}
+
+/*========================================================
+TEMPLATE THREE LAYOUT
+========================================================*/
+.edet-enabled .edet-tag-cloud-wrapper.template-3 a {
+    color: #fff;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    overflow: visible;
+    padding: 8px 0.9em;
+    z-index: 1;
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-3 a:hover {
+    color: #fff;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-3 a:after {
+    content: "";
+    background: #444;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 5px;
+    transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-3 a:hover:after {
+    background: #7DB302;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-3 a span.tagcount {
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+/*========================================================
+TEMPLATE FOUR LAYOUT
+========================================================*/
+.edet-enabled .edet-tag-cloud-wrapper.template-4 a {
+    background: #2ac2d4 none repeat scroll 0 0;
+    color: #fff;
+    overflow: visible;
+    padding: 8px 15px;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-4 a:hover {
+    color: #fff;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-4 a .tagcount {
+    background: #163851 none repeat scroll 0 0;
+    font-size: 11px;
+    font-weight: 600;
+    height: 18px;
+    left: 50%;
+    letter-spacing: 0.5px;
+    line-height: 17px;
+    margin: 0 auto;
+    min-width: 35px;
+    opacity: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    text-align: center;
+    top: -30px;
+    transform: translateX(-60%);
+    -webkit-transform: translateX(-60%);
+    -moz-transform: translateX(-60%);
+    visibility: hidden;
+    z-index: 1;
+    transition: all ease 0.35s;
+    -webkit-transition: all ease 0.35s;
+    -moz-transition: all ease 0.35s;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-4 a:hover .tagcount {
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: visible;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-4 a .tagcount::after {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #163851;
+    bottom: -7px;
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    width: 0;
+    padding-left: 0;
+}
+
+/*============================================
+TEMPLATE FIVE LAYOUT
+============================================*/
+.edet-enabled .edet-tag-cloud-wrapper.template-5 a {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #ee4e4e;
+    color: #ee4e4e;
+    padding: 5px 0.9em;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-5 a:hover {
+    border-color: #429eec;
+    color: #429eec;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-5 a .tagcount {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+}
+
+/*=============================================
+TEMPLATE SIX LAYOUT
+=============================================*/
+.edet-enabled .edet-tag-cloud-wrapper.template-6 a {
+    background: #fb6c02 none repeat scroll 0 0;
+    border: 1px solid #fb6c02;
+    color: #fff;
+    padding: 7px 55px 7px 15px;
+    border-radius: 3px;
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-6 a.edetCustomClass {
+    padding: 7px 50px 7px 15px;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-6 a:hover {
+    background: #fff;
+    color: #fb6c02;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-6 a .tagcount {
+    background: #fff none repeat scroll 0 0;
+    color: #fb6c02;
+    font-size: 11px;
+    font-weight: 600;
+    height: 100%;
+    letter-spacing: 0.5px;
+    line-height: 2.8;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 35px;
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-6 a:hover .tagcount {
+    background: #fb6c02;
+    color: #fff;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-6 a .tagcount::before {
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #fff;
+    border-top: 5px solid transparent;
+    bottom: 0;
+    content: "";
+    height: 0;
+    left: -5px;
+    margin: auto;
+    padding-right: 0;
+    position: absolute;
+    top: 0;
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-6 a:hover .tagcount::before {
+    border-right-color: #fb6c02;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-6 a .tagcount > span {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+}
+
+/*==============================================
+TEMPLATE SEVEN LAYOUT
+==============================================*/
+.edet-enabled .edet-tag-cloud-wrapper.template-7 a {
+    background: #163851 none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px 1.35em;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-7 a:hover {
+    background: #ca3a3d;
+    color: #fff;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-7 a::after {
+    border-bottom: 12px solid #28638e;
+    border-right: 12px solid #fff;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-shadow: -1px 1px 6px #222;
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-7 a:hover::after {
+    border-bottom-color: #f66f72;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-7 a .tagcount {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+}
+
+/*===========================================
+TEMPLATE EIGHT LAYOUT
+===========================================*/
+.edet-enabled .edet-tag-cloud-wrapper.template-8 a {
+    background: #79439f none repeat scroll 0 0;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: #fff;
+    padding: 8px 1.25em;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-8 a:hover {
+    background: #a25bd4;
+    color: #fff;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-8 a .tagcount {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+}
+
+/*=================================================
+TEMPLATE NINE LAYOUT
+=================================================*/
+.edet-enabled .edet-tag-cloud-wrapper.template-9 a {
+    background: #ffcc00 none repeat scroll 0 0;
+    border-bottom: 3px solid #f0a901;
+    border-radius: 5px;
+    color: #333;
+    padding: 8px 0.9em;
+    text-align: center;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-9 a:hover {
+    background: #ffd83d;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-9 a:active {
+    border-bottom-width: 2px;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-9 a::after {
+    background: #feda44 none repeat scroll 0 0;
+    border-radius: 5px;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-9 a .tagcount {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+}
+
+/*=================================================
+TEMPLATE TEN LYAOUT
+=================================================*/
+.edet-enabled .edet-tag-cloud-wrapper.template-10 a {
+    background: #4c8cc9 none repeat scroll 0 0;
+    color: #4c8cc9;
+    padding: 15px 25px;
+    z-index: 1;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-10 a:hover {
+    color: #fb6c02;
+    background: #fb6c02;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-10 a::before {
+    background: #fff none repeat scroll 0 0;
+    bottom: 10px;
+    content: "";
+    left: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: -1;
+    box-shadow: -1px 1px 0 rgba(0, 0, 0, 0.1), -2px 2px 0 rgba(0, 0, 0, 0.1), -3px 3px 0 rgba(0, 0, 0, 0.1), -4px 4px 0 rgba(0, 0, 0, 0.1), -5px 5px 0 rgba(0, 0, 0, 0.1), -6px 6px 0 rgba(0, 0, 0, 0.1), -7px 7px 0 rgba(0, 0, 0, 0.1);
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-10 a .tagcount {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+}
+
+/*====================================================
+TEMPLATE ELEVEN LAYOUT
+====================================================*/
+.edet-enabled .edet-tag-cloud-wrapper.template-11 a {
+    background: #38aa38 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 0.9em;
+    z-index: 1;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-11 a:hover {
+    color: #fff;
+    background: #2b832b;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-11 a::after {
+    background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+    border-radius: 40%;
+    content: "";
+    height: 100%;
+    left: -20px;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    transform: translateY(-49%);
+    -webkit-transform: translateY(-49%);
+    -moz-transform: translateY(-49%);
+    z-index: -1;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-11 a .tagcount {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+}
+
+/*========================================================
+TEMPLATE TWELVE LAYOUT
+========================================================*/
+.edet-enabled .edet-tag-cloud-wrapper.template-12 a {
+    background: #3797e1 none repeat scroll 0 0;
+    color: #fff;
+    overflow: visible;
+    padding: 8px 0.9em;
+    box-shadow: 4px 4px 0 #2a5972 !important;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-12 a:hover {
+    background: #277ab9;
+    color: #fff;
+    box-shadow: 0 0 0 transparent !important;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-12 a .tagcount {
+    margin-left: 5px;
+}
+
+/*==============================================
+TEMPLATE THIRTEEN LAYOUT
+===============================================*/
+.edet-enabled .edet-tag-cloud-wrapper.template-13 a {
+    background: linear-gradient(#fff, #ddd) repeat scroll 0 0;
+    background: -webkit-linear-gradient(#fff, #ddd) repeat scroll 0 0;
+    background: -moz-linear-gradient(#fff, #ddd) repeat scroll 0 0;
+    background: -ms-linear-gradient(#fff, #ddd) repeat scroll 0 0;
+    background: -o-linear-gradient(#fff, #ddd) repeat scroll 0 0;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    color: #333;
+    overflow: visible;
+    padding: 8px 20px;
+    text-shadow: 1px 1px #fff;
+}
+/*.edet-enabled .edet-tag-cloud-wrapper.template-13 a.edetCustomClass {
+    padding: 5px 25px 5px 15px; 
+    margin-bottom: 6px;
+    margin-right: 25px;
+    margin-top: 6px;
+}*/
+.edet-enabled .edet-tag-cloud-wrapper.template-13 a:hover {
+    background: linear-gradient(#ddd, #fff) repeat scroll 0 0;
+    background: -webkit-linear-gradient(#ddd, #fff) repeat scroll 0 0;
+    background: -moz-linear-gradient(#ddd, #fff) repeat scroll 0 0;
+    background: -ms-linear-gradient(#ddd, #fff) repeat scroll 0 0;
+    background: -o-linear-gradient(#ddd, #fff) repeat scroll 0 0;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-13 a .tagcount {
+    margin-left: 10px;
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+}
+
+/*=========================================
+TEMPLATE FORTEEN LAYOUT
+=========================================*/
+.edet-enabled .edet-tag-cloud-wrapper.template-14 a {
+    background: #d9853f none repeat scroll 0 0;
+    border-radius: 1.2em;
+    color: #fff;
+    margin: 6px;
+    overflow: visible;
+    padding: 5px 0.9em;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-14 a:hover {
+    color: #fff;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-14 a::after {
+    border: 1px solid #d9853f;
+    border-radius: 3em;
+    bottom: -3px;
+    content: "";
+    left: -3px;
+    position: absolute;
+    right: -3px;
+    top: -3px;
+    transition: all ease 0.4s;
+    -webkit-transition: all ease 0.4s;
+    -moz-transition: all ease 0.4s;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-14 a:hover::after {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    opacity: 0;
+    visibility: hidden;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-14 a .tagcount {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+}
+
+/*=============================================
+TEMPLATE FIFTEEN LAYOUT
+=============================================*/
+.edet-enabled .edet-tag-cloud-wrapper.template-15 a {
+    background: #f65d4d none repeat scroll 0 0;
+    border: 1px solid #f65d4d;
+    color: #fff;
+    padding: 5px 0.9em;
+    white-space: nowrap;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-15 a:hover {
+    color: #fff;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-15 a::after {
+    background: -webkit-linear-gradient(left, transparent, #fff, transparent) repeat scroll 0 0;
+    background: -moz-linear-gradient(right, transparent, #fff, transparent) repeat scroll 0 0;
+    background: -o-linear-gradient(right, transparent, #fff, transparent) repeat scroll 0 0;
+    background: linear-gradient(to right, transparent, #fff, transparent) repeat scroll 0 0;
+    content: "";
+    transform: skewX(-45deg);
+    -webkit-transform: skewX(-45deg);
+    -moz-transform: skewX(-45deg);
+    z-index: 1;
+    height: 10em;
+    left: -10em;
+    opacity: 0.5;
+    position: absolute;
+    top: -10em;
+    width: 2em;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-15 a:hover::after {
+    top: 100%;
+    left: 100%;
+    transition: all ease 1s;
+    -webkit-transition: all ease 1s;
+    -moz-transition: all ease 1s;
+}
+.edet-enabled .edet-tag-cloud-wrapper.template-15 a .tagcount {
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.two-col-special-a .edet-enabled {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-left: 30px;
+    background: #eee;
+}
+
+
+/*=========================================
+CSS FOR DEMO CONTENT AND IT WILL NOT 
+APPLY ON PLUGIN CSS CLASSES
+=========================================*/
+.edet-demo-container::before, 
+.edet-demo-container::after {
+    content: "";
+    display: table;
+}
+.edet-demo-container::after {
+    clear: both;
+}
+.edet-demo-container .edet-demo {
+    float: left;
+    padding: 20px;
+    width: 33.33%;
+}
+.edet-demo-container .edet-demo .edet-text-description {
+    color: #333;
+    font-weight: 700;
+    margin-top: 0;
+}
+.edet-demo-container .edet-demo .edet-text-description ~ .edet-text-description {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
